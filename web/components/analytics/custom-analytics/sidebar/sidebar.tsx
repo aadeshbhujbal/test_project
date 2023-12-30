@@ -151,7 +151,7 @@ export const CustomAnalyticsSidebar: React.FC<Props> = observer(
         <div className="flex flex-wrap items-center gap-2">
           <div className="flex items-center gap-1 rounded-md bg-custom-background-80 px-3 py-1 text-xs text-custom-text-200">
             <LayersIcon height={14} width={14} />
-            {analytics ? analytics.total : "..."} Issues
+            {analytics ? analytics.total : "..."} Tasks
           </div>
           {isProjectLevel && (
             <div className="flex items-center gap-1 rounded-md bg-custom-background-80 px-3 py-1 text-xs text-custom-text-200">

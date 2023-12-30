@@ -29,7 +29,7 @@ export const WorkspaceDashboardHeader = () => {
             </Breadcrumbs>
           </div>
         </div>
-        <div className="flex items-center gap-3 px-3">
+        {/* <div className="flex items-center gap-3 px-3">
           <a
             href="https://plane.so/changelog"
             target="_blank"
@@ -53,7 +53,7 @@ export const WorkspaceDashboardHeader = () => {
             />
             Star us on GitHub
           </a>
-        </div>
+        </div> */}
       </div>
     </>
   );

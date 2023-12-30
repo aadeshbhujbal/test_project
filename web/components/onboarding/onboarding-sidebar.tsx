@@ -40,7 +40,7 @@ const workspaceLinks = [
   },
   {
     Icon: CheckCircle,
-    name: "All Issues",
+    name: "All Tasks",
   },
   {
     Icon: Bell,
