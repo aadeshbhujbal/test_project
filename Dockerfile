@@ -109,7 +109,7 @@ ENV NEXT_TELEMETRY_DISABLED 1
 
 # RUN rm /etc/nginx/conf.d/default.conf
 #######################################################################
-COPY nginx.site /etc/nginx/http.d/default.conf
+COPY nginx/nginx-single-docker-image.conf /etc/nginx/http.d/default.conf
 #######################################################################
 
 COPY nginx/supervisor.conf /code/supervisor.conf
